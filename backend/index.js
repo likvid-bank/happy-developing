@@ -21,7 +21,7 @@ app.use(cors({
 
 app.get('/', (req, res) => {
     visitorCount++;
-    res.json({ greeting: 'Greetings from NodeJS K8S Starter App!', visitorCount });
+    res.json({ greeting: 'Greetings from NodeJS K8S Starter App, Happy Developing!', visitorCount });
 });
 
 app.get('/compliment', (req, res) => {
